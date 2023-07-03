@@ -6,13 +6,13 @@ export enum Action {
   Exponentiate = '^',
 }
 
-type RawCalculatorInput = {
+export type RawCalculatorInput = {
   a: unknown;
   b: unknown;
   action: unknown;
 };
 
-type ValidCalculatorInput = {
+export type ValidCalculatorInput = {
   a: number;
   b: number;
   action: Action;
